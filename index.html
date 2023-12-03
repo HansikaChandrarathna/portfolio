@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="../assets/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <nav>
+            <img src="assets/images/logo.png" alt="logo" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+        </nav>
+
+    </div>
+    <div id="header"></div>
+    <div class="header-text">
+        <p>Full Stack Developer</p>
+        <h1>Hi, I'm <span>Hansika</span> Chandrarathna<br> From Sri Lanka</h1>
+    </div>
+
+    <!--about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assets/images/user.jpeg" alt="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi there! I'm Hansika Chandrarathna, a student studying software engineering and totally
+                        passionate about turning cool ideas into real, working computer code. I speak languages like
+                        Java and Python and love solving tricky problems. I'm on a mission to work on exciting projects
+                        that make a difference. When I'm not coding, I'm exploring open-source projects and keeping up
+                        with the latest tech trends. Let's chat about tech, coding, or any cool opportunities. Thanks
+                        for dropping by, and I'm excited about what's ahead!
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Frontend Development</span><br>Expertise in HTML, CSS, and JavaScript</li>
+                            <li><span>Backend Development</span><br>Database management and integration using MySQL</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-UI/UX</span><br>UI/UX Designing Web/App Interfaces</li>
+                            <li><span>2023-Frontend Development</span><br>Expertise in HTML, CSS, and
+                                JavaScript<br>Weather App<br>Netflix Landing Page<br>Digital Clock<br>Multiplication App
+                            </li>
+                            <li><span>2023-Backend Development</span><br>Database management and integration using
+                                MySQL<br>Online healthcare management system<br>Online fashion-shop</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018-2023</span><br>University of Moratuwa<br><span>2008-2016</span><br>Maliyadewa
+                                Balika Vidyalaya, Kurunegala</li>
+                            <li><span>2018-2023</span><br>B.Sc.(Hons),in Chemical and Process Engineering university of
+                                Moratuwa<br>Cumulative GPA - 3.44</li>
+                            <li><span>2017</span><br>G.C.E Advanced Level examination<br>Combined
+                                Maths - "A"<br>Chemistry - "A"<br>Physics - "A"</li>
+                            <li><span>2013</span><br>G.C.E Ordinary Level examination<br>8 - 'A' passes and 1 'C' pass
+                            </li>
+                            <li><span>2023</span><br>Computer programming course - iCET Institution</li>
+                            <li><span>2018</span><br>Diploma in English - Wayamba university</li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
